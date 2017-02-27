@@ -70,6 +70,8 @@ times = [sketch3.$1am, sketch3.$2am, sketch3.$3am, sketch3.$4am, sketch3.$5am, s
 minutes = [sketch3.m1, sketch3.m2, sketch3.m3, sketch3.m4, sketch3.m5, sketch3.m6, sketch3.m7, sketch3.m8, sketch3.m9, sketch3.m10, sketch3.m11, sketch3.m12, sketch3.m13, sketch3.m14, sketch3.m15, sketch3.m16, sketch3.m17, sketch3.m18, sketch3.m19, sketch3.m20, sketch3.m21, sketch3.m22, sketch3.m23, sketch3.m24, sketch3.m25,sketch3.m26, sketch3.m27, sketch3.m28, sketch3.m29, sketch3.m30,sketch3.m31, sketch3.m32, sketch3.m33, sketch3.m34, sketch3.m35, sketch3.m36, sketch3.m37, sketch3.m38, sketch3.m39, sketch3.m40,sketch3.m41, sketch3.m42, sketch3.m43, sketch3.m44, sketch3.m45, sketch3.m46, sketch3.m47, sketch3.m48, sketch3.m49
 ,sketch3.m50, sketch3.m51, sketch3.m52, sketch3.m53, sketch3.m54, sketch3.m55, sketch3.m56, sketch3.m57, sketch3.m58, sketch3.m59, sketch3.m60]
 
+secondsArray = [sketch3.l1, sketch3.l2, sketch3.l3, sketch3.l4, sketch3.l5, sketch3.l6, sketch3.l7, sketch3.l8, sketch3.l9, sketch3.l10, sketch3.l11, sketch3.l12, sketch3.l13, sketch3.l14, sketch3.l15, sketch3.l16, sketch3.l17, sketch3.l18, sketch3.l19, sketch3.l20, sketch3.l21, sketch3.l22, sketch3.l23, sketch3.l24, sketch3.l25,sketch3.l26, sketch3.l27, sketch3.l28, sketch3.l29, sketch3.l30,sketch3.l31, sketch3.l32, sketch3.l33, sketch3.l34, sketch3.l35, sketch3.l36, sketch3.l37, sketch3.l38, sketch3.l39, sketch3.l40,sketch3.l41, sketch3.l42, sketch3.l43, sketch3.l44, sketch3.l45, sketch3.l46, sketch3.l47, sketch3.l48, sketch3.l49
+,sketch3.l50, sketch3.l51, sketch3.l52, sketch3.l53, sketch3.l54, sketch3.l55, sketch3.l56, sketch3.l57, sketch3.l58, sketch3.l59, sketch3.l60]
 
 
 screenTemplate = new Layer
@@ -92,13 +94,27 @@ okToRun = false
 count = 0
 oddCount =1
 
+
 #helper Methods
+
+opacityToZero = (layer) ->
+	layer.animate
+			opacity: 0
+			time: .5
+opacityUp = (layer) ->
+	layer.animate
+		opacity: 100
+		time: 1
+		delay: 1
+
+
+
 sendToBottom = (item) ->
 		currentImage = item.copy()
 		#print(currentImage)
 		currentImage.x = 20 + (count * 150)
 		print "count multiplier " + count
-		currentImage.y = 100 #needs to be fixed
+		currentImage.y = 1100 #needs to be fixed
 		onTotheNext = new Animation contentHolder,
 		y: contentHolder.y-100
 		#count = count + 1
@@ -109,37 +125,69 @@ sendToBottom = (item) ->
 		isMiddleHeld = false
 				
 
-
-
-
 selectRightPage = (trigger) ->
 	if count == 0
 		scrollPage(yearPage, "right",trigger)
 	else if count == 1
-		scrollPage(monthPager, "right")
+		scrollPage(monthPager, "right", trigger)
 	else if count == 2
-		scrollPage(dayPager, "right")
+		scrollPage(dayPager, "right", trigger)
+	else if count == 3
+		scrollPage(timePager, "right", trigger)
+	else if count == 4
+		scrollPage(minutePager, "right", trigger)
+	else if count == 5
+		scrollPage(secondsPager, "right", trigger)
 selectLeftPage = (trigger) ->
 	if count == 0
 		scrollPage(yearPage, "left",trigger)
-		print("didLeft")
 	else if count == 1
-		scrollPage(monthPager, "left")
+		scrollPage(monthPager, "left", trigger)
 	else if count == 2
-		scrollPage(dayPager, "left")
+		scrollPage(dayPager, "left",trigger)
+	else if count == 3
+		scrollPage(timePager, "left",trigger)
+	else if count == 4
+		scrollPage(minutePager, "left", trigger)
+	else if count == 5
+		scrollPage(secondsPager, "left",trigger)
 
 forceTapSelection =() ->
 	if count == 0
 		sendToBottom(yearPage.currentPage)
+		opacityToZero(yearPage)
+		opacityUp(monthPager)
 	else if count == 1
 		sendToBottom(monthPager.currentPage)
+		opacityToZero(monthPager)
+		opacityUp(dayPager)
 	else if count == 2
 		sendToBottom(dayPager.currentPage)
+		opacityToZero(dayPager)
+		opacityUp(timePager)
+	else if count == 3
+		sendToBottom(timePager.currentPage)
+		opacityToZero(timePager)
+		opacityUp(minutePager)
+	else if count == 4
+		sendToBottom(minutePager.currentPage)
+		opacityToZero(minutePager)
+		opacityUp(secondsPager)
+	else if count == 5
+		sendToBottom(secondsPager.currentPage)
+		opacityToZero(secondsPager)
 
 timeAttributes = [images, months, days]
 
 inputRest = new Layer
-  midX:screenTemplate.width/2, y:400, width:156, height:156, backgroundColor: "black"
+	midX:screenTemplate.width/2, y:400, width:156, height:156,backgroundColor: "grey"
+	borderRadius: 100
+inputRest.animate
+	properties:
+		opacity: 0
+	repeat: 200
+	time: .5
+	delay: 0.25
   
 dropTargetRight = new Layer width:screenTemplate.width/4, height:screenTemplate.height, backgroundColor: "teal", x:screenTemplate.width - screenTemplate.width/4, opacity: 0.00
 dropTargetRight.html = "right"
@@ -158,12 +206,15 @@ inputRest.draggable.constraints =
     height: 200
 inputRest.draggable.overdrag = false
 
+#inputRest.on Events.TouchMove, ->
+#	inputRest.animateStop
+
 inputRest.onForceTap ->
-	print count
+	#print count
 	forceTapSelection()
 	count = count + 1
-	print(yearPage.currentPage)
-	yearPage.opacity = 0
+	#print(yearPage.currentPage)
+	#yearPage.opacity = 0
 	playSound()
 	
 #pages
@@ -179,7 +230,7 @@ yearPage = new PageComponent
 monthPager = new PageComponent
 	parent: contentHolder
 	width:sketch3.$2013.width
-	#x: screen.width/2
+	opacity: 0
 	height:sketch3.$2013.height
 	scrollVertical: false
 	x: contentHolder.width/2 - (sketch3.$2013.width/2)
@@ -188,7 +239,7 @@ monthPager = new PageComponent
 dayPager = new PageComponent
 	parent: contentHolder
 	width:sketch3.$2013.width
-	#x: screen.width/2
+	opacity:0
 	height:sketch3.$2013.height
 	scrollVertical: false
 	x: contentHolder.width/2 - (sketch3.$2013.width/2)
@@ -197,7 +248,7 @@ dayPager = new PageComponent
 timePager = new PageComponent
 	parent: contentHolder
 	width:sketch3.$2013.width
-	#x: screen.width/2
+	opacity:0
 	height:sketch3.$2013.height
 	scrollVertical: false
 	x: contentHolder.width/2 - (sketch3.$2013.width/2)
@@ -206,12 +257,21 @@ timePager = new PageComponent
 minutePager = new PageComponent
 	parent: contentHolder
 	width:sketch3.$2013.width
-	#x: screen.width/2
+	opacity:0
 	height:sketch3.$2013.height
 	scrollVertical: false
 	x: contentHolder.width/2 - (sketch3.$2013.width/2)
 	#y: 370 - (i* (sketch3.apr.height+40))
 	y:680
+secondsPager = new PageComponent
+	parent: contentHolder
+	width:sketch3.$2013.width
+	opacity:0
+	height:sketch3.$2013.height
+	scrollVertical: false
+	x: contentHolder.width/2 - (sketch3.$2013.width/2)
+	#y: 370 - (i* (sketch3.apr.height+40))
+	y:780
 
 
 #fill pages
@@ -233,11 +293,15 @@ for time in times
 for minute in minutes
 	minutePager.addPage minute
 	minute.bringToFront
+	
+for second in secondsArray
+	secondsPager.addPage second
 
 #set default
 yearPage.snapToPage(sketch3.$2017, false)
 monthPager.snapToPage(sketch3.feb, false)
 dayPager.snapToPage(sketch3.$2, false)
+secondsPager.snapToPage(sketch3.l3,false)
 
 #animation
 inputRest.on Events.DragEnd, ->
@@ -249,17 +313,18 @@ inputRest.on Events.DragEnd, ->
 
 inputRest.on Events.Drag, ->
 	endX = Math.abs(screenTemplate.midX - inputRest.midX)
+	print endX
 	if endX < 80 
-		oddCount = 1
-	if endX > 195 && endX <205
+		oddCount = 2
+		
+	if endX > 200 && oddCount%2 == 0
 		oddCount = oddCount + 1 
-		print "oddCount" + oddCount
-		if oddCount%2 == 0
+		#print "oddCount" + oddCount
 		#Utils.delay .7, ->
-			triggerDirection(dropTargetLeft,"left")
-			triggerDirection(dropTargetRight,"right")
+		triggerDirection(dropTargetLeft,"left")
+		triggerDirection(dropTargetRight,"right")
 	else
-		print(Math.abs(screenTemplate.midX - inputRest.midX))
+		#print(Math.abs(screenTemplate.midX - inputRest.midX))
 	
 #inputRest.on Events.DragEnd, ->
 #	Utils.delay .5, ->
@@ -271,8 +336,8 @@ scrollPage = (page, direction, trigger) ->
 	page.snapToNextPage(
 		direction 
 		true 
-		time:1
-		Utils.delay 1, ->
+		time:.4
+		Utils.delay .4, ->
 			dX = Math.abs(trigger.midX - inputRest.midX)
 			dY = Math.abs(trigger.midY - inputRest.midY)
 			if dX <= 100 && dY < 500
@@ -283,10 +348,10 @@ triggerDirection = (trigger,direction) ->
 	dX = Math.abs(trigger.midX - inputRest.midX)
 	dY = Math.abs(trigger.midY - inputRest.midY)
 	endX = Math.abs(screenTemplate.midX - inputRest.midX)
-	print endX		
-	print dX
-	print dY
-	if dX <= 110 && dY < 500
+	#print endX		
+	#print dX
+	#print dY
+	if dX <= 110 && dY < 500 #decides between left right
 		if direction == "right"
 			print("right")
 			selectRightPage(trigger)
@@ -297,5 +362,4 @@ triggerDirection = (trigger,direction) ->
 			selectLeftPage(trigger)
 	else
 		trigger.backgroundColor = "teal"
-		print "looking for me"
 		

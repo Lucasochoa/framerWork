@@ -3188,6 +3188,1696 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 		]
 	},
 	{
+		"objectId": "D91F8B71-8260-4E57-A0BA-60C512DDB120",
+		"kind": "artboard",
+		"name": "seconds",
+		"originalName": "seconds",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": -304,
+			"y": -27,
+			"width": 375,
+			"height": 667
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"children": [
+			{
+				"objectId": "7E5C43E5-BE3E-4598-AD9A-13A7CD3DA1CF",
+				"kind": "group",
+				"name": "$1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_26_27_28_29_25_30_Mask_Copy1",
+				"originalName": "1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 26 + 27 + 28 + 29 + 25 + 30 Mask Copy",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 177,
+					"y": 228,
+					"width": 210,
+					"height": 32
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "7C2A0433-9926-4357-8E6C-41AE2CEA106E",
+						"kind": "group",
+						"name": "l1_l2_l3_l4_l5_l6_l7_l8_l9_l10_l11_l12_l13_l14_l15_l16_l17_l18_l19_l20_l21_l22_l23_l24_l25_l26_l27_l28_l29_l30_l31_l32_l33_l34_l35_l36_l37_l38_l39_l40_l41_l42_l43_l44_l45_l46_l47_l48_l49_l50_l51_l52_l53_l54_l55_l57_l56_l58_l59_l60_Mask",
+						"originalName": "l1 + l2 + l3 + l4 + l5 + l6 + l7 + l8 + l9 + l10 + l11 + l12 + l13 + l14 + l15 + l16 + l17 + l18 + l19 + l20 + l21 + l22 + l23 + l24 + l25 + l26 + l27 + l28 + l29 + l30 + l31 + l32 + l33 + l34 + l35 + l36 + l37 + l38 + l39 + l40 + l41 + l42 + l43 + l44 + l45 + l46 + l47 + l48 + l49 + l50 + l51 + l52 + l53 + l54 + l55 + l57 + l56 + l58 + l59 + l60 Mask",
+						"maskFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 375,
+							"height": 666.9999999999999
+						},
+						"layerFrame": {
+							"x": 20,
+							"y": -2,
+							"width": 375,
+							"height": 666.9999999999999
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-l1_l2_l3_l4_l5_l6_l7_l8_l9_l10_l11_l12_l13_l14_l15_l16_l17_l18_l19_l20_l21_l22_l23_l24_l25_l26_l27_l28_l29_l30_l31_l32_l33_l34_l35_l36_l37_l38_l39_l40_l41_l42_l43_l44_l45_l46_l47_l48_l49_l50_l51_l52_l53_l54_l55_l57_l56_l58_l59_l60_Mask-n0myqta0.png",
+							"frame": {
+								"x": 20,
+								"y": -2,
+								"width": 375,
+								"height": 666.9999999999999
+							}
+						},
+						"children": [
+							{
+								"objectId": "B1DAE46C-5436-4D8D-AB3A-B2F32A2763AB",
+								"kind": "group",
+								"name": "l60",
+								"originalName": "l60",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4598,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l60-qjfequu0.png",
+									"frame": {
+										"x": 4598,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "C0E52B6A-AAC5-46FA-BCF8-2EAC68C9014C",
+								"kind": "group",
+								"name": "l59",
+								"originalName": "l59",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4523,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l59-qzbfntjc.png",
+									"frame": {
+										"x": 4523,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "AB774E9E-251C-4398-8C59-E273605233BE",
+								"kind": "group",
+								"name": "l58",
+								"originalName": "l58",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4448,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l58-qui3nzrf.png",
+									"frame": {
+										"x": 4448,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "A81D39AC-4957-46AA-B9C5-D2FE780440CA",
+								"kind": "group",
+								"name": "l56",
+								"originalName": "l56",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4298,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l56-qtgxrdm5.png",
+									"frame": {
+										"x": 4298,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "4FC196E3-D4B2-4151-8790-AFCBFC427B1E",
+								"kind": "group",
+								"name": "l57",
+								"originalName": "l57",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4373,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l57-nezdmtk2.png",
+									"frame": {
+										"x": 4373,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "085FD4FB-C837-4666-B215-9CDACCA53CE7",
+								"kind": "group",
+								"name": "l55",
+								"originalName": "l55",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4223,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l55-mdg1rkq0.png",
+									"frame": {
+										"x": 4223,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "45BDBB13-2E9B-4C97-BA20-22C3857BA5F2",
+								"kind": "group",
+								"name": "l54",
+								"originalName": "l54",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4148,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l54-ndvcrejc.png",
+									"frame": {
+										"x": 4148,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "794FEB60-40C9-4AB4-A14F-3A3C14D146AE",
+								"kind": "group",
+								"name": "l53",
+								"originalName": "l53",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 4073,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l53-nzk0rkvc.png",
+									"frame": {
+										"x": 4073,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "CDE58513-4C19-47D7-B280-2FEB2986D5CA",
+								"kind": "group",
+								"name": "l52",
+								"originalName": "l52",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3998,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l52-q0rfntg1.png",
+									"frame": {
+										"x": 3998,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "7ECEA365-574D-42D0-89D1-45A4F4AD38C0",
+								"kind": "group",
+								"name": "l51",
+								"originalName": "l51",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3923,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l51-n0vdruez.png",
+									"frame": {
+										"x": 3923,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "36E63E52-C5F5-4A16-89FA-02935A5367E6",
+								"kind": "group",
+								"name": "l50",
+								"originalName": "l50",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3848,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l50-mzzfnjnf.png",
+									"frame": {
+										"x": 3848,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "37097ACB-8DA6-433A-9E57-B3E4FD099FF9",
+								"kind": "group",
+								"name": "l49",
+								"originalName": "l49",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3773,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l49-mzcwotdb.png",
+									"frame": {
+										"x": 3773,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "0CCC3EE7-98A4-4655-9D6F-B3861ED8D02E",
+								"kind": "group",
+								"name": "l48",
+								"originalName": "l48",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3698,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l48-mendqznf.png",
+									"frame": {
+										"x": 3698,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "B285693A-2055-41A9-A6EE-03AC73EA1D43",
+								"kind": "group",
+								"name": "l47",
+								"originalName": "l47",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3623,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l47-qji4nty5.png",
+									"frame": {
+										"x": 3623,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "16B51FC4-CEF1-45E3-9393-04CD7AF39FE0",
+								"kind": "group",
+								"name": "l46",
+								"originalName": "l46",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3548,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l46-mtzcntfg.png",
+									"frame": {
+										"x": 3548,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "7F9B4A1A-6544-4BA5-8CD2-1D8FCF2861F4",
+								"kind": "group",
+								"name": "l45",
+								"originalName": "l45",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3473,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l45-n0y5qjrb.png",
+									"frame": {
+										"x": 3473,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "D35404E8-A05F-4AF6-8A8D-76AD8FFC9D66",
+								"kind": "group",
+								"name": "l44",
+								"originalName": "l44",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3398,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l44-rdm1nda0.png",
+									"frame": {
+										"x": 3398,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "6C1F484B-839C-4B45-A86A-95511C77CD35",
+								"kind": "group",
+								"name": "l43",
+								"originalName": "l43",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3323,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l43-nkmxrjq4.png",
+									"frame": {
+										"x": 3323,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "B5BAD5F8-04FD-4058-89E4-0BD7ED58466F",
+								"kind": "group",
+								"name": "l42",
+								"originalName": "l42",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3250,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l42-qjvcquq1.png",
+									"frame": {
+										"x": 3250,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "09527896-7804-4A7D-9688-C31BDB012C2E",
+								"kind": "group",
+								"name": "l41",
+								"originalName": "l41",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3175,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l41-mdk1mjc4.png",
+									"frame": {
+										"x": 3175,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "A341B72F-B7C3-45F1-AA4E-6545D0656A8F",
+								"kind": "group",
+								"name": "l40",
+								"originalName": "l40",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3100,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l40-qtm0mui3.png",
+									"frame": {
+										"x": 3100,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "10947D43-B403-4AED-BF1D-D03E5F71B4C3",
+								"kind": "group",
+								"name": "l39",
+								"originalName": "l39",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 3025,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l39-mta5ndde.png",
+									"frame": {
+										"x": 3025,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "78DE67DB-057F-4BCE-9015-748C62730D75",
+								"kind": "group",
+								"name": "l38",
+								"originalName": "l38",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2950,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l38-nzherty3.png",
+									"frame": {
+										"x": 2950,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "69A3FC49-737A-4F1B-899F-E68033C0F982",
+								"kind": "group",
+								"name": "l37",
+								"originalName": "l37",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2875,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l37-njlbm0zd.png",
+									"frame": {
+										"x": 2875,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "46C88F22-13D8-48EE-9AF5-7C70FA35787A",
+								"kind": "group",
+								"name": "l36",
+								"originalName": "l36",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2800,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l36-ndzdodhg.png",
+									"frame": {
+										"x": 2800,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "8697FC26-2159-4129-9E8D-3A3D7499000B",
+								"kind": "group",
+								"name": "l35",
+								"originalName": "l35",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2725,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l35-ody5n0zd.png",
+									"frame": {
+										"x": 2725,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "A6A590E3-32A9-404F-A2DA-9833AF281D2A",
+								"kind": "group",
+								"name": "l34",
+								"originalName": "l34",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2650,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l34-qtzbntkw.png",
+									"frame": {
+										"x": 2650,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "C111F549-BFDA-4D9A-89CD-8919730CE29C",
+								"kind": "group",
+								"name": "l33",
+								"originalName": "l33",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2575,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l33-qzexmuy1.png",
+									"frame": {
+										"x": 2575,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "8A85EFC7-6502-4471-82C3-9946954AA33B",
+								"kind": "group",
+								"name": "l32",
+								"originalName": "l32",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2500,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l32-oee4nuvg.png",
+									"frame": {
+										"x": 2500,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "36344E43-94DD-491B-BC72-5C1F892A30A6",
+								"kind": "group",
+								"name": "l31",
+								"originalName": "l31",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2425,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l31-mzyzndrf.png",
+									"frame": {
+										"x": 2425,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "A92BE94F-AD3F-44E5-8DE9-B6445CA8D4CB",
+								"kind": "group",
+								"name": "l30",
+								"originalName": "l30",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2350,
+									"y": 227,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l30-qtkyqku5.png",
+									"frame": {
+										"x": 2350,
+										"y": 227,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "3C148929-1753-4901-BC5B-28C1BAAD1D20",
+								"kind": "group",
+								"name": "l29",
+								"originalName": "l29",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2275,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l29-m0mxndg5.png",
+									"frame": {
+										"x": 2275,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "A5CB629C-44BD-463E-B31E-B487B0C3D1BB",
+								"kind": "group",
+								"name": "l28",
+								"originalName": "l28",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2200,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l28-qtvdqjyy.png",
+									"frame": {
+										"x": 2200,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "E43C7163-C1A0-4530-A7AA-D1AE9728206C",
+								"kind": "group",
+								"name": "l27",
+								"originalName": "l27",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2125,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l27-rtqzqzcx.png",
+									"frame": {
+										"x": 2125,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "B46010A3-48B6-45AB-A3B8-892EF020BF06",
+								"kind": "group",
+								"name": "l26",
+								"originalName": "l26",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 2050,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l26-qjq2mdew.png",
+									"frame": {
+										"x": 2050,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "95E9B903-485F-445A-887E-0DA4C6A7B074",
+								"kind": "group",
+								"name": "l25",
+								"originalName": "l25",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1975,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l25-otvfoui5.png",
+									"frame": {
+										"x": 1975,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "29D4DA70-490F-420E-B2F3-664B1BB473D5",
+								"kind": "group",
+								"name": "l24",
+								"originalName": "l24",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1900,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l24-mjlenerb.png",
+									"frame": {
+										"x": 1900,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "C0D4FC24-0CEE-454C-AD62-3F163946EE40",
+								"kind": "group",
+								"name": "l23",
+								"originalName": "l23",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1825,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l23-qzbenezd.png",
+									"frame": {
+										"x": 1825,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "707D2484-F838-492C-A77F-A5E2F3143779",
+								"kind": "group",
+								"name": "l22",
+								"originalName": "l22",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1750,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l22-nza3rdi0.png",
+									"frame": {
+										"x": 1750,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "F6B15460-3831-404E-8F7E-70678F9271E8",
+								"kind": "group",
+								"name": "l21",
+								"originalName": "l21",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1675,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l21-rjzcmtu0.png",
+									"frame": {
+										"x": 1675,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "00515116-02B2-4855-ABFD-56A2EF404E27",
+								"kind": "group",
+								"name": "l20",
+								"originalName": "l20",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1600,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l20-mda1mtux.png",
+									"frame": {
+										"x": 1600,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "B58356E7-B0FD-4578-B334-010D1903BB7E",
+								"kind": "group",
+								"name": "l19",
+								"originalName": "l19",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1525,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l19-qju4mzu2.png",
+									"frame": {
+										"x": 1525,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "C9A0C004-B7F9-4178-8B93-BE790A7FD016",
+								"kind": "group",
+								"name": "l18",
+								"originalName": "l18",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1450,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l18-qzlbmemw.png",
+									"frame": {
+										"x": 1450,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "F834816D-4B04-46F1-8847-857EE9458B9C",
+								"kind": "group",
+								"name": "l17",
+								"originalName": "l17",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1375,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l17-rjgzndgx.png",
+									"frame": {
+										"x": 1375,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "4D32091A-7D97-47B9-9C5E-5B6485AB14B9",
+								"kind": "group",
+								"name": "l16",
+								"originalName": "l16",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1300,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l16-neqzmja5.png",
+									"frame": {
+										"x": 1300,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "901919E7-65DB-43A1-A01C-5237B3EE4423",
+								"kind": "group",
+								"name": "l15",
+								"originalName": "l15",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1225,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l15-otaxote5.png",
+									"frame": {
+										"x": 1225,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "DDE21B64-D00E-48D9-A6FF-09DD414BE939",
+								"kind": "group",
+								"name": "l14",
+								"originalName": "l14",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1150,
+									"y": 226,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l14-rerfmjfc.png",
+									"frame": {
+										"x": 1150,
+										"y": 226,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "1F9F7728-4533-4060-9972-3494C879B780",
+								"kind": "group",
+								"name": "l13",
+								"originalName": "l13",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1075,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l13-muy5rjc3.png",
+									"frame": {
+										"x": 1075,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "68E937F1-84E2-4E90-9DF2-BBDB0B496C3A",
+								"kind": "group",
+								"name": "l12",
+								"originalName": "l12",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 1000,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l12-njhfotm3.png",
+									"frame": {
+										"x": 1000,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "11A4DC97-7EC2-4976-8F67-9E6AC572E939",
+								"kind": "group",
+								"name": "l11",
+								"originalName": "l11",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 927,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l11-mtfbnerd.png",
+									"frame": {
+										"x": 927,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "F6CB9C2B-9B9B-4E33-94A2-EF54A8D59262",
+								"kind": "group",
+								"name": "l10",
+								"originalName": "l10",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 852,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l10-rjzdqjld.png",
+									"frame": {
+										"x": 852,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "45D0E2F5-2623-49EB-A93E-E0BCBDF91BC6",
+								"kind": "group",
+								"name": "l9",
+								"originalName": "l9",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 777,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l9-ndvemeuy.png",
+									"frame": {
+										"x": 777,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "33311A00-49E3-418B-8931-B5FBB0ACF1A7",
+								"kind": "group",
+								"name": "l8",
+								"originalName": "l8",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 702,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l8-mzmzmtfb.png",
+									"frame": {
+										"x": 702,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "9B8298DC-3774-4C97-A122-6FC4F4EF86D0",
+								"kind": "group",
+								"name": "l7",
+								"originalName": "l7",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 627,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l7-oui4mjk4.png",
+									"frame": {
+										"x": 627,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "309323F1-EBCB-41FE-BF49-B079C9CD5A34",
+								"kind": "group",
+								"name": "l6",
+								"originalName": "l6",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 552,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l6-mza5mziz.png",
+									"frame": {
+										"x": 552,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "B371232C-E87F-4042-9300-3B05B40E7181",
+								"kind": "group",
+								"name": "l5",
+								"originalName": "l5",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 477,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l5-qjm3mtiz.png",
+									"frame": {
+										"x": 477,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "6409F74B-A56D-4427-A670-43781A4205BC",
+								"kind": "group",
+								"name": "l4",
+								"originalName": "l4",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 402,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l4-njqwouy3.png",
+									"frame": {
+										"x": 402,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "5583EA51-5A09-4E20-9605-883B9CE77385",
+								"kind": "group",
+								"name": "l3",
+								"originalName": "l3",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 327,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l3-ntu4m0vb.png",
+									"frame": {
+										"x": 327,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "6F526152-226D-431D-A2B3-FA8CD8CDFF09",
+								"kind": "group",
+								"name": "l2",
+								"originalName": "l2",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 252,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l2-nky1mjyx.png",
+									"frame": {
+										"x": 252,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "276BE83E-5E36-4F7B-837D-F3125AF11E3B",
+								"kind": "group",
+								"name": "l1",
+								"originalName": "l1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 177,
+									"y": 228,
+									"width": 60,
+									"height": 32
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-l1-mjc2qku4.png",
+									"frame": {
+										"x": 177,
+										"y": 228,
+										"width": 60,
+										"height": 32
+									}
+								},
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
 		"objectId": "F888D5FE-157D-4BFF-B504-FB249083FF04",
 		"kind": "artboard",
 		"name": "time",
@@ -3206,7 +4896,7 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 			{
 				"objectId": "21971F8F-7F76-4119-B49D-152A629E0A94",
 				"kind": "group",
-				"name": "$1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_26_27_28_29_25_30_Mask_Copy1",
+				"name": "$1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_26_27_28_29_25_30_Mask_Copy2",
 				"originalName": "1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 26 + 27 + 28 + 29 + 25 + 30 Mask Copy",
 				"maskFrame": null,
 				"layerFrame": {

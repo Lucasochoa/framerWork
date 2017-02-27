@@ -3,9 +3,7 @@
 sketch3 = Framer.Importer.load("imported/numberImages@2x")
 
 images = [sketch3.$2012, sketch3.$2013, sketch3.$2014, sketch3.$2015, sketch3.$2016, sketch3.$2017, sketch3.$2018, sketch3.$2019, sketch3.$2020]
-
 months = [sketch3.jan, sketch3.feb, sketch3.mar, sketch3.apr, sketch3.may, sketch3.jun, sketch3.jul,sketch3.aug, sketch3.sep, sketch3.oct, sketch3.nov, sketch3.dec]
-
 days = [sketch3.$1, sketch3.$2,sketch3.$3,sketch3.$4, sketch3.$5,sketch3.$6,sketch3.$7, sketch3.$8,sketch3.$9,sketch3.$10, sketch3.$11,sketch3.$12,sketch3.$13, sketch3.$14,sketch3.$15,sketch3.$16, sketch3.$17,sketch3.$18,sketch3.$19, sketch3.$20,sketch3.$21,sketch3.$22, sketch3.$23,sketch3.$24,sketch3.$25, sketch3.$26,sketch3.$27,sketch3.$28, sketch3.$29,sketch3.$30,]
 
 screenSize = new Layer
@@ -94,6 +92,7 @@ sendToBottom = (item) ->
 				#print(count)
 				onTotheNext.start()
 				isMiddleHeld = false
+				
 		
 for day in days
 	dayPager.addPage day
@@ -102,6 +101,10 @@ for day in days
 for month in months
 	monthPager.addPage month
 	sendToBottom(month)
+	
+for image in images
+	pager.addPage image
+	sendToBottom(image)
 	
 #truthTriggers
 for month in months
@@ -116,29 +119,17 @@ for day in days
 	day.on Events.MouseOver, (event, layer)->
 		isMiddleHeld = true
 	
-for image in images
-	pager.addPage image
-	image.on Events.MouseOver, (event, layer)->
-		Utils.delay 1, ->
-			if isMiddleHeld
-				currentImage = layer.copy()
-				#print(currentImage)
-				currentImage.x = 10
-				currentImage.y = 1200 #needs to be fixed
-				onTotheNext = new Animation contentHolder,
-				y: contentHolder.y-100
-				count = count + 1
-				#print(count)
-				onTotheNext.start()
-				isMiddleHeld = false
+
 
 	
 pager.snapToPage(sketch3.$2017, false)
 monthPager.snapToPage(sketch3.feb, false)
 dayPager.snapToPage(sketch3.$2, false)
 
+
 rightTrigger.on Events.MouseOver, ()->
 	#print(isRightHeld)
+	print("blah")
 	isRightHeld = true
 	Utils.delay 
 	doRightTrigger()
