@@ -16,6 +16,8 @@ joshLabel.draggable.vertical = false
 initX = joshLabel.x
 initY = joshLabel.y
 joshLabel.draggable.speedX = 0.7
+joshLabel.onForceTap ->
+	print "meow"
 
 
 
