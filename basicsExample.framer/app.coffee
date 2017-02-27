@@ -29,6 +29,7 @@ layer1.on Events.MouseOver, ->
     properties:
       scale: 0.8
     curve: curve1
+    
 layer1.on Events.MouseOut, ->
   layer1.animate
     properties:
@@ -55,7 +56,8 @@ layer3.on Events.TouchStart, ->
     properties:
       scale: 0.8
     curve: curve1
-  layer3.html = "MouseUp"
+  print("mouseOn")
+ 
     
 layer3.on Events.TouchEnd, ->
   layer3.animate

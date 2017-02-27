@@ -1,4 +1,5 @@
 # Import file "numberImages" (sizes and positions are scaled 1:2)
+
 sketch3 = Framer.Importer.load("imported/numberImages@2x")
 
 images = [sketch3.$2012, sketch3.$2013, sketch3.$2014, sketch3.$2015, sketch3.$2016, sketch3.$2017, sketch3.$2018, sketch3.$2019, sketch3.$2020]
@@ -7,6 +8,11 @@ months = [sketch3.jan, sketch3.feb, sketch3.mar, sketch3.apr, sketch3.may, sketc
 
 days = [sketch3.$1, sketch3.$2,sketch3.$3,sketch3.$4, sketch3.$5,sketch3.$6,sketch3.$7, sketch3.$8,sketch3.$9,sketch3.$10, sketch3.$11,sketch3.$12,sketch3.$13, sketch3.$14,sketch3.$15,sketch3.$16, sketch3.$17,sketch3.$18,sketch3.$19, sketch3.$20,sketch3.$21,sketch3.$22, sketch3.$23,sketch3.$24,sketch3.$25, sketch3.$26,sketch3.$27,sketch3.$28, sketch3.$29,sketch3.$30,]
 
+screenSize = new Layer
+	width: 750
+	height: 1334
+
+isMiddleHeld = false
 isRightHeld = false
 isLeftHeld = false
 
@@ -46,10 +52,9 @@ pager = new PageComponent
 	#x: screen.width/2
 	height:sketch3.$2013.height
 	scrollVertical: false
-	x: screen.width/4
+	x: contentHolder.width/2 - (sketch3.$2013.width/2)
 	#y: 370 - (i* (sketch3.apr.height+40))
 	y:280
-	originX: 2
 	
 monthPager = new PageComponent
 	parent: contentHolder
@@ -57,10 +62,9 @@ monthPager = new PageComponent
 	#x: screen.width/2
 	height:sketch3.$2013.height
 	scrollVertical: false
-	x: screen.width/4
+	x: contentHolder.width/2 - (sketch3.$2013.width/2)
 	#y: 370 - (i* (sketch3.apr.height+40))
 	y:380
-	originX: 2
 	
 dayPager = new PageComponent
 	parent: contentHolder
@@ -68,25 +72,28 @@ dayPager = new PageComponent
 	#x: screen.width/2
 	height:sketch3.$2013.height
 	scrollVertical: false
-	x: screen.width/4
+	x: contentHolder.width/2 - (sketch3.$2013.width/2)
 	#y: 370 - (i* (sketch3.apr.height+40))
 	y:480
-	originX: 2
 	
 	
 	
 #helperMethods
 sendToBottom = (item) ->
-	item.on Events.Click, (event, layer)->
-		currentImage = layer.copy()
-		print(currentImage)
-		currentImage.x = 10 + (sketch3.feb.width*count)
-		currentImage.y = 1200 #needs to be fixed
-		onTotheNext = new Animation contentHolder,
-		y: contentHolder.y-100
-		count = count + 1
-		print(count)
-		onTotheNext.start()
+	item.on Events.MouseOver, (event, layer)->
+		Utils.delay 1, ->
+			if isMiddleHeld
+				isMiddleHeld = false
+				currentImage = layer.copy()
+				#print(currentImage)
+				currentImage.x = 10 + (sketch3.feb.width*count)
+				currentImage.y = 1200 #needs to be fixed
+				onTotheNext = new Animation contentHolder,
+				y: contentHolder.y-100
+				count = count + 1
+				#print(count)
+				onTotheNext.start()
+				isMiddleHeld = false
 		
 for day in days
 	dayPager.addPage day
@@ -95,19 +102,35 @@ for day in days
 for month in months
 	monthPager.addPage month
 	sendToBottom(month)
+	
+#truthTriggers
+for month in months
+	month.on Events.MouseOver, (event, layer)->
+		isMiddleHeld = true
 
 for image in images
+	image.on Events.MouseOver, (event, layer)->
+		isMiddleHeld = true
+		
+for day in days
+	day.on Events.MouseOver, (event, layer)->
+		isMiddleHeld = true
+	
+for image in images
 	pager.addPage image
-	image.on Events.Click, (event, layer)->
-		currentImage = layer.copy()
-		print(currentImage)
-		currentImage.x = 10
-		currentImage.y = 1200 #needs to be fixed
-		onTotheNext = new Animation contentHolder,
-		y: contentHolder.y-100
-		count = count + 1
-		print(count)
-		onTotheNext.start()
+	image.on Events.MouseOver, (event, layer)->
+		Utils.delay 1, ->
+			if isMiddleHeld
+				currentImage = layer.copy()
+				#print(currentImage)
+				currentImage.x = 10
+				currentImage.y = 1200 #needs to be fixed
+				onTotheNext = new Animation contentHolder,
+				y: contentHolder.y-100
+				count = count + 1
+				#print(count)
+				onTotheNext.start()
+				isMiddleHeld = false
 
 	
 pager.snapToPage(sketch3.$2017, false)
@@ -115,27 +138,25 @@ monthPager.snapToPage(sketch3.feb, false)
 dayPager.snapToPage(sketch3.$2, false)
 
 rightTrigger.on Events.MouseOver, ()->
-	print(isRightHeld)
+	#print(isRightHeld)
 	isRightHeld = true
 	Utils.delay 
 	doRightTrigger()
 	rightTrigger
+	isMiddleHeld = false
+	
 leftTrigger.on Events.MouseOver, ()->
-	print(isRightHeld)
+	#print(isRightHeld)
 	isLeftHeld = true
 	Utils.delay 
 	doLeftTrigger()
+	isMiddleHeld = false
 
-	
-	
-	
 contentHolder.on Events.TouchMove, ()->
 	isRightHeld = false
 	isLeftHeld = false
-	print(isRightHeld)
 	
-
-
+	
 #rightTrigger.on Events.TouchStart, () ->
 doRightTrigger = () ->
 	if isRightHeld == true

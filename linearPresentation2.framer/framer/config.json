@@ -7,17 +7,15 @@
   "propertyPanelToggleStates" : {
     "Filters" : true
   },
-  "deviceType" : "apple-iphone-7-silver",
-  "projectId" : "32A4A0BF-D9BF-4DCF-B3BD-82B0EACB4053",
+  "deviceType" : "apple-iphone-6s-gold",
+  "projectId" : "C8696673-1680-44E5-9D18-22E2ABBF098E",
   "deviceOrientation" : 0,
   "selectedHand" : "",
   "foldedCodeRanges" : [
-    "{438, 371}",
-    "{860, 77}",
-    "{937, 80}",
-    "{1017, 56}",
-    "{1073, 215}",
-    "{2018, 337}"
+    "{439, 371}",
+    "{1009, 80}",
+    "{1089, 56}",
+    "{1145, 215}"
   ],
   "deviceScale" : "fit"
 }
