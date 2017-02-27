@@ -1,3 +1,5 @@
+# Import file "numberImages" (sizes and positions are scaled 1:2)
+sketch3 = Framer.Importer.load("imported/numberImages@2x")
 # # Simulated vibration in Framer
 # # Ryhan Hassan
 # # ryhan@dropbox.com
@@ -60,12 +62,16 @@
 screenTemplate = new Layer
 	width: 750
 	height: 1334
+	backgroundColor: "white"
+
+images = [sketch3.$2012, sketch3.$2013, sketch3.$2014, sketch3.$2015, sketch3.$2016, sketch3.$2017, sketch3.$2018, sketch3.$2019, sketch3.$2020]
+
 
 inputRest = new Layer
-  midX:screenTemplate.width/2, y:105, width:156, height:156, backgroundColor: "rgba(0,253,255,1)"
+  midX:screenTemplate.width/2, y:400, width:156, height:156, backgroundColor: "black"
   
 dropTargetRight = new Layer width:screenTemplate.width/4, height:screenTemplate.height, backgroundColor: "teal", x:screenTemplate.width - screenTemplate.width/4
-dropTargetRight.html = "left"
+dropTargetRight.html = "right"
 
 dropTargetLeft = new Layer y:0, width:screenTemplate.width/4, height:screenTemplate.height, backgroundColor: "teal"
 dropTargetLeft.html = "left"
