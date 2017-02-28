@@ -65,6 +65,8 @@ dragOnCircle = require "dragOnCircle"
 # 		volume.gain.value = 0
 # 		source.frequency.value = 0
 
+monthArray = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",]
+
 
 months = new Layer
 	x: 20  
@@ -189,10 +191,6 @@ changeElement = () ->
 	
 # function call with parameteres layer -Knob and radius - 280px
 
-layerB = new Layer
-layerB.onClick ->
-	print(dragOnCircle.myVar)
-
 angle = dragOnCircle.circleDrag Knob, 280
 
 Knob.on "change:x", ->
@@ -205,8 +203,18 @@ Knob.on "change:x", ->
 		
 #work faster
 	if dragOnCircle.myVar == 0
-		print(Math.floor(Utils.modulate(dragOnCircle.dragAngle, [0, 359], [0, 60],true)))
+		months.html = monthArray[Math.floor(Utils.modulate(dragOnCircle.dragAngle, [0, 359], [0, 11],true))]
+		
+	else if dragOnCircle.myVar == 1
+		#print(Math.floor(Utils.modulate(dragOnCircle.dragAngle, [0, 359], [0, 31],true)))
+		days.html = Math.floor(Utils.modulate(dragOnCircle.dragAngle, [0, 359], [0, 30],true))
+	else if dragOnCircle.myVar == 2
+		year.html = Math.floor(Utils.modulate(dragOnCircle.dragAngle, [0, 359], [2000, 2020],true))
+	else if dragOnCircle.myVar == 3
 		minutes.html = Math.floor(Utils.modulate(dragOnCircle.dragAngle, [0, 359], [0, 60],true))
+	else if dragOnCircle.myVar == 4
+		seconds.html = Math.floor(Utils.modulate(dragOnCircle.dragAngle, [0, 359], [0, 60],true))
+
 		
 	#else if dragOnCircle.myVar == 1
 		
