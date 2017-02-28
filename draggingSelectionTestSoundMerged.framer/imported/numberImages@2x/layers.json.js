@@ -54,9 +54,9 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"originalName": "2020",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 640,
+							"x": 647,
 							"y": 130,
-							"width": 77,
+							"width": 62,
 							"height": 32
 						},
 						"visible": true,
@@ -66,9 +66,9 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-$2020-ntg0quiz.png",
 							"frame": {
-								"x": 640,
+								"x": 647,
 								"y": 130,
-								"width": 77,
+								"width": 62,
 								"height": 32
 							}
 						},
@@ -216,9 +216,9 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"originalName": "2014",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 186,
+							"x": 193,
 							"y": 130,
-							"width": 76,
+							"width": 61,
 							"height": 32
 						},
 						"visible": true,
@@ -228,9 +228,9 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-$2014-mzddrdbc.png",
 							"frame": {
-								"x": 186,
+								"x": 193,
 								"y": 130,
-								"width": 76,
+								"width": 61,
 								"height": 32
 							}
 						},
@@ -243,9 +243,9 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"originalName": "2013",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 110,
+							"x": 117,
 							"y": 130,
-							"width": 77,
+							"width": 61,
 							"height": 32
 						},
 						"visible": true,
@@ -255,9 +255,9 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-$2013-mjyyndjf.png",
 							"frame": {
-								"x": 110,
+								"x": 117,
 								"y": 130,
-								"width": 77,
+								"width": 61,
 								"height": 32
 							}
 						},
@@ -750,10 +750,10 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"originalName": "25",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 1915.0000000000002,
-							"y": 95,
-							"width": 60,
-							"height": 32
+							"x": 1937,
+							"y": 105,
+							"width": 16,
+							"height": 11
 						},
 						"visible": true,
 						"metadata": {
@@ -762,10 +762,10 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-$25-rky3neng.png",
 							"frame": {
-								"x": 1915.0000000000002,
-								"y": 95,
-								"width": 60,
-								"height": 32
+								"x": 1937,
+								"y": 105,
+								"width": 16,
+								"height": 11
 							}
 						},
 						"children": []
@@ -993,7 +993,7 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"originalName": "20",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 1540.0000000000002,
+							"x": 1540,
 							"y": 95,
 							"width": 60,
 							"height": 32
@@ -1005,7 +1005,7 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-$20-rdfcnte1.png",
 							"frame": {
-								"x": 1540.0000000000002,
+								"x": 1540,
 								"y": 95,
 								"width": 60,
 								"height": 32
@@ -1074,7 +1074,7 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"originalName": "17",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 1315.0000000000002,
+							"x": 1315,
 							"y": 95,
 							"width": 60,
 							"height": 32
@@ -1086,7 +1086,7 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-$17-qji4njqz.png",
 							"frame": {
-								"x": 1315.0000000000002,
+								"x": 1315,
 								"y": 95,
 								"width": 60,
 								"height": 32
@@ -1344,10 +1344,10 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"originalName": "7",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 642,
-							"y": 95,
-							"width": 60,
-							"height": 32
+							"x": 667,
+							"y": 105,
+							"width": 8,
+							"height": 10
 						},
 						"visible": true,
 						"metadata": {
@@ -1356,10 +1356,10 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-$7-nzm1mdq1.png",
 							"frame": {
-								"x": 642,
-								"y": 95,
-								"width": 60,
-								"height": 32
+								"x": 667,
+								"y": 105,
+								"width": 8,
+								"height": 10
 							}
 						},
 						"children": []
@@ -1645,33 +1645,6 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 						"children": []
 					},
 					{
-						"objectId": "962C1A4D-97D0-4010-94F2-4DF9F7F794A7",
-						"kind": "group",
-						"name": "m56",
-						"originalName": "m56",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 4298,
-							"y": 227,
-							"width": 60,
-							"height": 32
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-m56-otyyqzfb.png",
-							"frame": {
-								"x": 4298,
-								"y": 227,
-								"width": 60,
-								"height": 32
-							}
-						},
-						"children": []
-					},
-					{
 						"objectId": "D9046D53-E9C3-44C5-858F-E77B7539E977",
 						"kind": "group",
 						"name": "m57",
@@ -1691,6 +1664,33 @@ window.__imported__["numberImages@2x/layers.json.js"] = [
 							"path": "images/Layer-m57-rdkwndze.png",
 							"frame": {
 								"x": 4373,
+								"y": 227,
+								"width": 60,
+								"height": 32
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "962C1A4D-97D0-4010-94F2-4DF9F7F794A7",
+						"kind": "group",
+						"name": "m56",
+						"originalName": "m56",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 4298,
+							"y": 227,
+							"width": 60,
+							"height": 32
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-m56-otyyqzfb.png",
+							"frame": {
+								"x": 4298,
 								"y": 227,
 								"width": 60,
 								"height": 32

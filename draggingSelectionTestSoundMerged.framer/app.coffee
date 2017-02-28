@@ -1,64 +1,64 @@
 # Import file "numberImages" (sizes and positions are scaled 1:2)
 sketch3 = Framer.Importer.load("imported/numberImages@2x")
-# # Simulated vibration in Framer
-# # Ryhan Hassan
-# # ryhan@dropbox.com
-# 
-# ############################################
-# # Web Audio
-# ############################################
-# 
-# audio_context = new webkitAudioContext()
-# source = audio_context.createOscillator()
-# 
-# # 0 - Sine wave
-# # 1 - Square wave
-# # 2 - Sawtooth wave
-# # 3 - Triangle wave
-# source.type = 0
-# 
-# source.frequency.value = 0
-# 
-# compressor = audio_context.createDynamicsCompressor()
-# 
-# compressor.threshold.value = -40;
-# compressor.knee.value = 30;
-# compressor.ratio.value = -5;
-# compressor.reduction.value = -20;
-# compressor.attack.value = 0;
-# compressor.release.value = 0.2;
-# 
-# 
-# volume = audio_context.createGainNode()
-#  
-# # connect source through a series of filters
-# source.connect compressor
-# compressor.connect volume
-# volume.connect audio_context.destination
-# 
-# source.noteOn(0)
-# 
-# sound_min = 200
-# sound_step = 30
-# sound_step_count = 20
-# sound_spacing = 0.02
-# 
-# volume.gain.value = 1
-# nextNote = (i) ->
-# 	if (i < 20)
-# 		source.frequency.value = sound_min + sound_step*i
-# 		volume.gain.value = (sound_step_count - i)/sound_step_count
-# 		
-# 	else
-# 		source.frequency.value = 0
-# 
-# playSound = () ->
-# 	nextNote(0)
-# 	[0, sound_step_count+1].map (i) ->
-# 		Utils.delay i*sound_spacing, -> nextNote i
-# 	Utils.delay 0.6, -> 
-# 		volume.gain.value = 0
-# 		source.frequency.value = 0
+# Simulated vibration in Framer
+# Ryhan Hassan
+# ryhan@dropbox.com
+
+############################################
+# Web Audio
+############################################
+
+audio_context = new webkitAudioContext()
+source = audio_context.createOscillator()
+
+# 0 - Sine wave
+# 1 - Square wave
+# 2 - Sawtooth wave
+# 3 - Triangle wave
+source.type = 0
+
+source.frequency.value = 0
+
+compressor = audio_context.createDynamicsCompressor()
+
+compressor.threshold.value = -40;
+compressor.knee.value = 30;
+compressor.ratio.value = -5;
+compressor.reduction.value = -20;
+compressor.attack.value = 0;
+compressor.release.value = 0.2;
+
+
+volume = audio_context.createGainNode()
+ 
+# connect source through a series of filters
+source.connect compressor
+compressor.connect volume
+volume.connect audio_context.destination
+
+source.noteOn(0)
+
+sound_min = 200
+sound_step = 30
+sound_step_count = 20
+sound_spacing = 0.02
+
+volume.gain.value = 1
+nextNote = (i) ->
+	if (i < 20)
+		source.frequency.value = sound_min + sound_step*i
+		volume.gain.value = (sound_step_count - i)/sound_step_count
+		
+	else
+		source.frequency.value = 0
+
+playSound = () ->
+	nextNote(0)
+	[0, sound_step_count+1].map (i) ->
+		Utils.delay i*sound_spacing, -> nextNote i
+	Utils.delay 0.6, -> 
+		volume.gain.value = 0
+		source.frequency.value = 0
 
 images = [sketch3.$2012, sketch3.$2013, sketch3.$2014, sketch3.$2015, sketch3.$2016, sketch3.$2017, sketch3.$2018, sketch3.$2019, sketch3.$2020]
 
@@ -78,12 +78,14 @@ screenTemplate = new Layer
 	width: 750
 	height: 1334
 	backgroundColor: "white"
-	opacity: 0
+	opacity: 100
+screenTemplate.sendToBack()
 
 contentHolder = new Layer
 	width: 750
-	height: 1083
+	height: 1334
 	backgroundColor: null
+
 
 
 #global vars :/ :) :P
@@ -102,17 +104,19 @@ opacityToZero = (layer) ->
 			opacity: 0
 			time: .5
 opacityUp = (layer) ->
-	layer.animate
-		opacity: 100
-		time: 1
-		delay: 1
+	layer.opacity = 0
+	Utils.delay .5, ->
+		layer.animate
+			opacity: 1
+			time: 2
+			delay: 1
 
 
 
 sendToBottom = (item) ->
 		currentImage = item.copy()
 		#print(currentImage)
-		currentImage.x = 20 + (count * 150)
+		currentImage.x = 20 + (count * (currentImage.width+5))
 		print "count multiplier " + count
 		currentImage.y = 1100 #needs to be fixed
 		onTotheNext = new Animation contentHolder,
@@ -238,38 +242,36 @@ monthPager = new PageComponent
 	y:380
 dayPager = new PageComponent
 	parent: contentHolder
-	width:sketch3.$2013.width
+	width:sketch3.$1.width
 	opacity:0
-	height:sketch3.$2013.height
+	height:sketch3.$1.height
 	scrollVertical: false
-	x: contentHolder.width/2 - (sketch3.$2013.width/2)
-	#y: 370 - (i* (sketch3.apr.height+40))
+	x: contentHolder.width/2 - (sketch3.$1.width/2)
 	y:480
 timePager = new PageComponent
 	parent: contentHolder
-	width:sketch3.$2013.width
+	width:sketch3.$1am.width
 	opacity:0
-	height:sketch3.$2013.height
+	height:sketch3.$1am.height+10
 	scrollVertical: false
-	x: contentHolder.width/2 - (sketch3.$2013.width/2)
-	#y: 370 - (i* (sketch3.apr.height+40))
+	x: contentHolder.width/2 - (sketch3.$1am.width/2)
 	y:580
 minutePager = new PageComponent
 	parent: contentHolder
-	width:sketch3.$2013.width
+	width:sketch3.m1.width
 	opacity:0
-	height:sketch3.$2013.height
+	height:sketch3.m1.height + 10
 	scrollVertical: false
-	x: contentHolder.width/2 - (sketch3.$2013.width/2)
+	x: contentHolder.width/2 - (sketch3.m1.width/2)
 	#y: 370 - (i* (sketch3.apr.height+40))
 	y:680
 secondsPager = new PageComponent
 	parent: contentHolder
-	width:sketch3.$2013.width
+	width:sketch3.$1.width
 	opacity:0
-	height:sketch3.$2013.height
+	height:sketch3.$1.height+5
 	scrollVertical: false
-	x: contentHolder.width/2 - (sketch3.$2013.width/2)
+	x: contentHolder.width/2 - (sketch3.$1.width/2)
 	#y: 370 - (i* (sketch3.apr.height+40))
 	y:780
 
@@ -336,8 +338,8 @@ scrollPage = (page, direction, trigger) ->
 	page.snapToNextPage(
 		direction 
 		true 
-		time:.4
-		Utils.delay .4, ->
+		time:.3
+		Utils.delay .3, ->
 			dX = Math.abs(trigger.midX - inputRest.midX)
 			dY = Math.abs(trigger.midY - inputRest.midY)
 			if dX <= 100 && dY < 500

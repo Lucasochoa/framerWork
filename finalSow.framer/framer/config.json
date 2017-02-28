@@ -1,0 +1,35 @@
+{
+  "orientation" : 0,
+  "updateDelay" : 0.3,
+  "contentScale" : 1,
+  "fullScreen" : false,
+  "sharedPrototype" : 0,
+  "propertyPanelToggleStates" : {
+    "Filters" : false
+  },
+  "deviceType" : "apple-iphone-7-silver",
+  "projectId" : "BEAE61EB-75D9-4180-959C-ECB4F5FBA658",
+  "deviceOrientation" : 0,
+  "selectedHand" : "",
+  "foldedCodeRanges" : [
+    "{125, 1285}",
+    "{1411, 145}",
+    "{1557, 165}",
+    "{1723, 371}",
+    "{2095, 351}",
+    "{2446, 779}",
+    "{3226, 784}",
+    "{4012, 94}",
+    "{4970, 401}",
+    "{5371, 391}",
+    "{7536, 267}",
+    "{7803, 244}",
+    "{8047, 192}",
+    "{8239, 202}",
+    "{8441, 240}",
+    "{8681, 238}",
+    "{9310, 165}",
+    "{9487, 121}"
+  ],
+  "deviceScale" : "fit"
+}
