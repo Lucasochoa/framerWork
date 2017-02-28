@@ -1,0 +1,36 @@
+{
+  "orientation" : 0,
+  "updateDelay" : 0.3,
+  "contentScale" : 1,
+  "fullScreen" : false,
+  "sharedPrototype" : 0,
+  "propertyPanelToggleStates" : {
+    "Filters" : false
+  },
+  "deviceType" : "apple-iphone-6s-silver",
+  "projectId" : "71A1454C-C0C0-4ABE-B63A-0D562E5500E0",
+  "deviceOrientation" : 0,
+  "selectedHand" : "",
+  "foldedCodeRanges" : [
+    "{125, 1403}",
+    "{1529, 145}",
+    "{1675, 165}",
+    "{1841, 371}",
+    "{2213, 351}",
+    "{2564, 779}",
+    "{3344, 784}",
+    "{4130, 121}",
+    "{4252, 76}",
+    "{5256, 401}",
+    "{5657, 391}",
+    "{7786, 250}",
+    "{8036, 244}",
+    "{8280, 192}",
+    "{8472, 202}",
+    "{8674, 240}",
+    "{8914, 238}",
+    "{9572, 165}",
+    "{9749, 121}"
+  ],
+  "deviceScale" : "fit"
+}
